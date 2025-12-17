@@ -5,16 +5,16 @@ Conceitos de Programação Orientada a Objetos através de um Sistema de Bibliot
 
 Este pequeno projeto foi desenvolvido com o objetivo de apresentar a utilização dos pilares da Programação Orientada a Objetos: Herança, Encapsulamento, Polimorfismo e Abstração, como parte do desafio do Bootcamp: Backend com Java e AWS, organizado pela empresa CI&T, em parceria com a plataforma digital de educação: DIO (Digital Inovation One). 
 
-O projeto consiste nas seguintes Classes que compõem um Sistema de Biblioteca, com seus respectivos nomes traduzidos para a língua Portuguesa, apenas para fins didáticos: 
+O projeto consiste nas seguintes Classes que compõem um Sistema de Biblioteca, nomeadas em Inglês:
 
-* [Book (Livro)]();
-* [Magazine (Revista)]();
-* [Dvd (Dvd)]();
-* [Item (Item)]();
-* [Loan (Emprestimo)]();
-* [Library (Biblioteca)]();
-* [User (Usuario)]();
-* [RunLibrary (ExecutarBiblioteca)]();
+* [Book]();
+* [Magazine]();
+* [Dvd]();
+* [Item]();
+* [Loan]();
+* [Library]();
+* [User]();
+* [RunLibrary]().
 
 ## 🛠️ Requisitos de Sistema
 
@@ -35,13 +35,13 @@ Exemplo: **git clone** https://github.com/mathmcf/library-system.git
 
 ### 2. Compilar o código Java:
 
-Navegue até o diretório *src* ou o local onde as Classes *.java* estiverem localizadas e compile o arquivo principal. O *JDK 17* simplifica o comando se a classe principal estiver na raiz do *src*:
+Navegue até o diretório *src/com/br/system/running* e compile o arquivo principal.
 
-Exemplo de compilação dentro da raiz do projeto: **javac src/RunLibrary.java**
+Exemplo de compilação dentro da raiz do projeto: **javac src/com/br/system/running/RunLibrary.java**.
 
 ### 3. Executar o Programa:
 
-Utilize o seguinte comando para executar a Classe *Main* (**RunLibrary**) a partir do diretório raiz do projeto: **java src/RunLibrary**
+Utilize o seguinte comando para executar a Classe *Main* (**RunLibrary**): **java src/com/br/system/running/RunLibrary**.
 
 ## 💡 Conceitos de POO Apresentados
 
