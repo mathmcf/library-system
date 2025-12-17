@@ -7,14 +7,14 @@ Este pequeno projeto foi desenvolvido com o objetivo de apresentar a utilizaçã
 
 O projeto consiste nas seguintes Classes que compõem um Sistema de Biblioteca, nomeadas em Inglês:
 
-* [Book]();
-* [Magazine]();
-* [Dvd]();
-* [Item]();
-* [Loan]();
-* [Library]();
-* [User]();
-* [RunLibrary]().
+* [Book](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Book.java);
+* [Magazine](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Magazine.java);
+* [Dvd](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Dvd.java);
+* [Item](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Item.java);
+* [Loan](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Loan.java);
+* [Library](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/Library.java);
+* [User](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/library/User.java);
+* [RunLibrary](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/running/RunLibrary.java).
 
 ## 🛠️ Requisitos de Sistema
 
