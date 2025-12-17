@@ -36,7 +36,7 @@ public class User {
         this.email = email;
     }
 
-    public String imprimeUsuario() {
+    public String printUser() {
         return "id: " + id + "; nome: " + name + "; email: " + email;
     }
 

@@ -18,8 +18,8 @@ public class RunLibrary {
         library.addItens(item2);
 
         library.printItens();
-        String resultado = library.searchItemByTitle("O Poderoso Chefão");
-        System.out.println(resultado);
+        String result = library.searchItemByTitle("O Poderoso Chefão");
+        System.out.println(result);
 
         User user = new User(1L, "Ítalo", "italo@teste.com");
         User user2 = new User(2L, "Matheus", "matheus@teste.com");
@@ -28,19 +28,19 @@ public class RunLibrary {
         library.getALoan(user2, item1);
 
         System.out.println("------------------------------------------------------");
-        boolean emprestimoVerificado = library.checkLoan(item2);
-        System.out.println("Item foi emprestado? " + emprestimoVerificado);
+        boolean checkedLoan = library.checkLoan(item2);
+        System.out.println("Item foi emprestado? " + checkedLoan);
 
         System.out.println("------------------------------------------------------");
 
         System.out.println("Informações do empréstimo: ");
         System.out.println();
 
-        Map<Item, User> itensEmprestados = library.showAllBorrowedItens();
+        Map<Item, User> borrowedItens = library.showAllBorrowedItens();
         int n = 0;
-        for (Map.Entry<Item, User> i : itensEmprestados.entrySet()) {
+        for (Map.Entry<Item, User> i : borrowedItens.entrySet()) {
             System.out.println("Item " + n + " : " + i.getKey().printItem() +
-                    " \nestá emprestado para o usuário: " + i.getValue().imprimeUsuario()
+                    " \nestá emprestado para o usuário: " + i.getValue().printUser()
             );
             n++;
             System.out.println();
@@ -48,7 +48,7 @@ public class RunLibrary {
         }
 
         System.out.println("------------------------------------------------------");
-        Item iTemDevolvido = library.returnAnItem(item2);
-        System.out.println("Item devolvido: " + iTemDevolvido.printItem());
+        Item returnedItem = library.returnAnItem(item2);
+        System.out.println("Item devolvido: " + returnedItem.printItem());
     }
 }
