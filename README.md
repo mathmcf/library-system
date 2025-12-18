@@ -7,14 +7,14 @@ Este pequeno projeto foi desenvolvido com o objetivo de apresentar a utilizaçã
 
 O projeto consiste nas seguintes Classes que compõem um Sistema de Biblioteca, nomeadas em Inglês:
 
-* [Book]();
-* [Magazine]();
-* [Dvd]();
-* [Item]();
-* [Loan]();
-* [Library]();
-* [User]();
-* [RunLibrary]().
+* [Book](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/model/Book.java);
+* [Magazine](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/model/Magazine.java);
+* [Dvd](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/model/Dvd.java);
+* [Item](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/model/Item.java);
+* [Loan](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/service/Loan.java);
+* [Library](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/service/Library.java);
+* [User](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/model/User.java);
+* [RunLibrary](https://github.com/mathmcf/library-system/blob/main/src/com/br/system/app/RunLibrary.java).
 
 ## 🛠️ Requisitos de Sistema
 
@@ -35,13 +35,13 @@ Exemplo: **git clone** https://github.com/mathmcf/library-system.git
 
 ### 2. Compilar o código Java:
 
-Navegue até o diretório *src/com/br/system/running* e compile o arquivo principal.
+Navegue até o diretório *src/com/br/system/app* e compile o arquivo principal.
 
-Exemplo de compilação dentro da raiz do projeto: **javac src/com/br/system/running/RunLibrary.java**.
+Exemplo de compilação dentro da raiz do projeto: **javac src/com/br/system/app/RunLibrary.java**.
 
 ### 3. Executar o Programa:
 
-Utilize o seguinte comando para executar a Classe *Main* (**RunLibrary**): **java src/com/br/system/running/RunLibrary**.
+Utilize o seguinte comando para executar a Classe *Main* (**RunLibrary**): **java src/com/br/system/app/RunLibrary**.
 
 ## 💡 Conceitos de POO Apresentados
 
