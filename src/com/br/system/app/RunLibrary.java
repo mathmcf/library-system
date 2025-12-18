@@ -1,6 +1,10 @@
-package com.br.system.running;
+package com.br.system.app;
 
-import com.br.system.library.*;
+import com.br.system.service.*;
+import com.br.system.model.Book;
+import com.br.system.model.Dvd;
+import com.br.system.model.Item;
+import com.br.system.model.User;
 
 import java.util.Map;
 

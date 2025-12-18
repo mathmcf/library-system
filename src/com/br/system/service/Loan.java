@@ -1,4 +1,6 @@
-package com.br.system.library;
+package com.br.system.service;
+
+import com.br.system.model.User;
 
 public class Loan {
 

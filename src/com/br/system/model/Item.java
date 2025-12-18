@@ -1,4 +1,6 @@
-package com.br.system.library;
+package com.br.system.model;
+
+import com.br.system.service.Loan;
 
 public abstract class Item {
 

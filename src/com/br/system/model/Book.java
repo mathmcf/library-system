@@ -1,4 +1,4 @@
-package com.br.system.library;
+package com.br.system.model;
 
 public class Book extends Item {
 
