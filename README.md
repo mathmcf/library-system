@@ -20,7 +20,7 @@ O projeto consiste nas seguintes Classes que compõem um Sistema de Biblioteca, 
 
 Para compilar e executar este projeto, será necessário instalar as seguintes ferramentas:
 
-* **Java Development Kit (JDK):** Versão **17 (LTS)** ou superior.
+* **Java Development Kit (JDK):** Versão **17** ou superior.
 * **Sistema de Controle de Versão:** Git.
 
 ## ⚙️ Instalação e Execução
